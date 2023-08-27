@@ -8,7 +8,7 @@ setup(
     author='Not me',
     author_email='',
     license='BSD 2-clause',
-    packages=['pyexample'],
+    packages=['bf4py'],
     install_requires=['urllib',
                     'hashlib',
                     'requests',
