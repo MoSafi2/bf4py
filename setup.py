@@ -9,11 +9,11 @@ setup(
     author_email='',
     license='BSD 2-clause',
     packages=['pyexample'],
-    install_requires=['urllib,
-                    hashlib,
-                    requests,
-                    json,
-                    sseclient
+    install_requires=['urllib',
+                    'hashlib',
+                    'requests',
+                    'json',
+                    'sseclient'
                       ],
 
     classifiers=[
