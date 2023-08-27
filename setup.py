@@ -9,12 +9,7 @@ setup(
     author_email='',
     license='BSD 2-clause',
     packages=['bf4py'],
-    install_requires=['urllib',
-                    'hashlib',
-                    'requests',
-                    'json',
-                    'sseclient'
-                      ],
+    install_requires=[],
 
     classifiers=[
         'Development Status :: 1 - Planning',
