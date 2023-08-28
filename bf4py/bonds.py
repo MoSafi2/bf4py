@@ -61,6 +61,6 @@ class Bonds():
 
         return data
 
-    def bond_eod(self, min_date: date, max_date: date=date.today(), isin: str = None, mic:str='XFRA'):
-        return eod_data(min_date: date, max_date: date=date.today(), isin: str = None, mic:str)
+    # def bond_eod(self, min_date: date, max_date: date=date.today(), isin: str = None, mic:str='XFRA'):
+    #     return eod_data(min_date: date, max_date: date=date.today(), isin: str = None, mic:str)
     
