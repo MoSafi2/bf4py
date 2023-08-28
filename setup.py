@@ -5,7 +5,7 @@ setup(
     version='0.1.0',    
     description='Fork for bf4py',
     url='https://github.com/MoSafi2/bf4py',
-    author='Not me',
+    author='joqueka',
     author_email='',
     license='BSD 2-clause',
     packages=['bf4py'],
