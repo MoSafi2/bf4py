@@ -1,6 +1,6 @@
 from .connector import BF4PyConnector
 from datetime import date
-from .general import eod_data
+#from .general import eod_data
 
 class Bonds():
     def __init__(self, connector: BF4PyConnector = None, default_isin=None):
