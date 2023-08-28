@@ -2,7 +2,7 @@ from .connector import BF4PyConnector
 from datetime import date
 from .general import eod_data
 
-class Bonds:
+class Bonds():
     def __init__(self, connector: BF4PyConnector = None, default_isin=None):
         self.default_isin = default_isin
 
