@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='bf5py_custom',
+    name='bf4py_custom',
     version='0.1.0',    
     description='Fork for bf4py',
     url='https://github.com/MoSafi2/bf4py',
