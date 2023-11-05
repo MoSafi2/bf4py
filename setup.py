@@ -9,7 +9,7 @@ setup(
     author_email='',
     license='BSD 2-clause',
     packages=['bf4py'],
-    install_requires=[],
+    install_requires=[^python3.7],
 
     classifiers=[
         'Development Status :: 1 - Planning',
