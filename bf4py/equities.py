@@ -190,14 +190,14 @@ class Equities():
         
         return data
         
-    # def equity_search(limit: int = 25, search_params:dict = None):
+    def equity_search(limit: int = 25, search_params:dict = None):
         
-    #     params = {'limit': limit}
-    #     if search_params:
-    #         params.update(search_params)
+        params = {'limit': limit}
+        if search_params:
+            params.update(search_params)
         
-    #     #data = _read_chunked(_search_request, 'equity_search', params)
-    #     data = _search_request('equity_search', params)
+        #data = _read_chunked(_search_request, 'equity_search', params)
+        data = _search_request('equity_search', params)
         
-    #     return data
+        return data
     
